@@ -1,0 +1,19 @@
+footer{
+  margin-top: 1rem;
+  text-align: center;
+  & .terms{
+    margin-block: 1rem;
+    
+  }
+}
+@media (width >= 80em) {
+    footer{
+      display: flex;
+      padding-inline: 2rem;
+      padding-block: 1.5rem;
+      align-items: center;
+      span:nth-child(1){
+        margin-right: auto;
+      }
+    }
+}
