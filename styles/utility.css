@@ -16,6 +16,9 @@
 .px-lg{
   padding-inline: var(--px-lg);
 }
+.px-base{
+  padding-inline: var(--px-base);
+}
 .desktop-only{
   display: none;
 }

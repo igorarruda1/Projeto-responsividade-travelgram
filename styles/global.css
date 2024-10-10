@@ -30,6 +30,7 @@
   --fs-sm: 0.75rem;
 
   --py-lg: 1rem;
+  --px-base:1rem;
   --px-lg: 1.5rem;
 }
 
@@ -40,6 +41,7 @@ html{
   line-height: 1.5;
   color: var(--text-color-secondary);
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body{
@@ -69,5 +71,6 @@ ul[role="list"]{
   :root{
     --fs-lg:2rem;
     --py-lg:1.25rem;
+    --px-base:2rem;
   }
 }
